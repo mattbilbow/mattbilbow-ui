@@ -1,0 +1,94 @@
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/utilities" layer(utilities);
+
+@theme {
+  --color-accent: #F04B27;
+  --color-dark: #111111;
+  --color-medium: #eeeeec;
+  --color-light: #fbfbf9;
+  --color-main: #656565;
+
+  --font-weight-normal: 300;
+  --text-base--font-weight: 300;
+  --font-weight-bold: 900;
+
+  --text-base--line-height: 2;
+  --text-5xl--line-height: 1.3;
+  --text-5xl: 2.875rem;
+  --text-5xl--letter-spacing: -0.01em;
+}
+
+@layer base {
+  a {
+    @apply no-underline;
+  }
+}
+
+.prose pre {
+  @apply bg-medium rounded-md p-4 overflow-x-auto;
+}
+
+.prose code {
+  @apply text-sm font-mono;
+}
+
+.prose p code {
+  @apply bg-medium text-accent px-1 py-0.5 rounded;
+  display: inline;
+}
+
+/* Fix: Use your actual color names */
+.prose pre[class*="language-"] {
+  @apply bg-medium text-dark rounded-lg p-4 overflow-x-auto !text-sm;
+  margin: 1.5rem 0;
+}
+
+.prose code[class*="language-"] {
+  @apply text-dark !text-sm;
+  background: none;
+}
+
+.token {
+  @apply !text-sm;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata,
+.token.module,
+.token.regex,
+.token.important,
+.token.variable,
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  @apply !text-main;
+}
+
+.token.keyword,
+.token.punctuation,
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  @apply !text-dark;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted,
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+  @apply !text-accent;
+}
