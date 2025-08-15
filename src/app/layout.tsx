@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         description: "Personal website and blog of Matt Bilbow, a passionate software developer sharing insights on modern web development and technical experiences.",
         images: [
             {
-                url: "/og-image.jpg",
+                url: "https://mattbilbow.co.uk/twitter-card.jpg",
                 width: 1200,
                 height: 630,
                 alt: "Matt Bilbow - Software Developer",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         title: "Matt Bilbow - Software Developer & Technical Writer",
         description: "Personal website and blog of Matt Bilbow, a passionate software developer sharing insights on modern web development, programming tutorials, and technical experiences.",
         creator: "@mattbilbow",
-        images: ["/twitter-card.jpg"],
+        images: ["https://mattbilbow.co.uk/twitter-card.jpg"],
     },
 
     robots: {
