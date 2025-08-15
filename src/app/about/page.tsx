@@ -53,16 +53,16 @@ export default function AboutPage() {
                                 </p>
 
                                 <p className="text-dark leading-relaxed mb-6">
-                                    I'm also a talented UI, UX and brand designer. Aesthetics have always come intuitively to me. I understand spacing, colour theory,
-                                    and visual hierarchy without ever having formally studied them. Being able to visualise the user's journey and then implement it technically has become one of my greatest professional strengths.
+                                    I&#39;m also a talented UI, UX and brand designer. Aesthetics have always come intuitively to me. I understand spacing, colour theory,
+                                    and visual hierarchy without ever having formally studied them. Being able to visualise the user&#39;s journey and then implement it technically has become one of my greatest professional strengths.
                                 </p>
 
                                 <p className="text-dark leading-relaxed mb-6">
-                                    My rare skill set allows me to work closely with business leaders and truly understand what's needed and when. It's what enabled me to co-found my own startup, which was acquired in 2023. That experience gave me invaluable insight into how business actually works, what leaders need to succeed, and most importantly, how I can bring the most value as both an engineer and if needed a strategic partner.
+                                    My rare skill set allows me to work closely with business leaders and truly understand what&#39;s needed and when. It&#39;s what enabled me to co-found my own startup, which was acquired in 2023. That experience gave me invaluable insight into how business actually works, what leaders need to succeed, and most importantly, how I can bring the most value as both an engineer and if needed a strategic partner.
                                 </p>
 
                                 <p className="text-dark leading-relaxed mb-6">
-                                    I currently work at Bullhorn as part of a small but highly efficient development team building the Analytics product (formerly cube19). Performance and process are critical when thousands of clients with hundreds of users each depend on our platform every day. It's the kind of environment where performant code, smart architecture, and reliable delivery aren't just nice to haves, they're essential.
+                                    I currently work at Bullhorn as part of a small but highly efficient development team building the Analytics product (formerly cube19). Performance and process are critical when thousands of clients with hundreds of users each depend on our platform every day. It&#39;s the kind of environment where performant code, smart architecture, and reliable delivery aren&#39;t just nice to haves, they&#39;re essential.
                                 </p>
                             </div>
                         </div>
@@ -128,11 +128,11 @@ export default function AboutPage() {
             <div className="pt-16 px-6 -mb-10">
                 <div className="max-w-2xl mx-auto text-center">
                     <h2 className="text-3xl font-bold text-dark mb-6">
-                        Let's Connect
+                        Let&#39;s Connect
                     </h2>
                     <p className="text-main text-lg mb-8">
                         Interested in collaborating or just want to chat about code or design?<br/>
-                        I'd love to connect.
+                        I&#39;d love to connect.
                     </p>
 
                 </div>

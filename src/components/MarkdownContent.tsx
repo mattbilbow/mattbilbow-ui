@@ -36,16 +36,17 @@ const MarkdownContent = ({content}: MarkdownContentProps) => {
                             {children}
                         </p>
                     ),
-                    code: ({inline, children, ...props}: any) => (
-                        inline ? (
-                            <code className="bg-medium rounded px-1 py-0.5 text-sm font-mono text-accent" {...props}>
-                                {children}
-                            </code>
-                        ) : (
-                            <code className="text-sm font-mono" {...props}>
-                                {children}
-                            </code>
-                        )
+                    code: ({children, ...props}) => (
+                        <code
+                            className={
+                                props.className?.includes('language-')
+                                    ? "text-sm font-mono"
+                                    : "bg-medium rounded px-1 py-0.5 text-sm font-mono text-accent"
+                            }
+                            {...props}
+                        >
+                            {children}
+                        </code>
                     ),
                     blockquote: ({children}) => (
                         <blockquote className="border-l-4 border-accent pl-4 italic text-main my-4">
