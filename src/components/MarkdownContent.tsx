@@ -36,6 +36,21 @@ const MarkdownContent = ({content}: MarkdownContentProps) => {
                             {children}
                         </p>
                     ),
+                    a: ({children, href, ...props}) => (
+                        <a
+                            href={href}
+                            target="_blank"
+                            className="text-dark text-base !underline hover:text-accent"
+                            {...props}
+                        >
+                            {children}
+                        </a>
+                    ),
+                    li: ({children}) => (
+                        <li className="text-main text-base mb-2">
+                            {children}
+                        </li>
+                    ),
                     code: ({children, ...props}) => (
                         <code
                             className={
